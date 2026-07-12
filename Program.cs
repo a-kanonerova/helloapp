@@ -1,2 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("hello everyone");
+class Program
+{
+    static void Main (string[] args)
+    {
+        Console.WriteLine("hello everyone");
+    }
+
+    static void greetBlack()
+    {
+        Console.WriteLine("hello black");
+    }
+}
